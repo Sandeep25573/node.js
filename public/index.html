@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>online shopping </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Online Shopping</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viewcart.html">View cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <section class="items">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4> mobie</h4>
+                    <p class="item-price">$900</p>
+                    <p>iPhone 11 color: Black</p>
+                    <p>128 GB, screen size:6.1 inch</p>
+                    <p>os :IOS</p>
+                    <p><i>2 item left in stock</i></p>
+                    <button onclick="qminus('1')">-</button><input type="text" value="1" id="itemqty1"><button onclick="qplus('1')">+</button>
+                    <br><button onclick="addtocart('1')">Add to
+                        cart</button>
+                </div>
+
+                <div class="col">
+                    <h4>projector</h4>
+                    <p class="item-price">$400</p>
+                    <p>brand : ONOAYO</p>
+                    <p>display resolution : 1920x1080</p>
+                    <p>color: white</p>
+                    <p><i>10 item left in stock</i></p>
+                    <button onclick="qminus('2')">-</button><input type="text" value="1" id="itemqty2"><button onclick="qplus('2')">+</button>
+                    <br><button onclick="addtocart('2')">Add to
+                        cart</button>
+                </div>
+
+                <div class="col">
+                    <h4>video Game</h4>
+                    <p class="item-price">$200</p>
+                    <p>brand : Yrprsodf</p>
+                    <p>color : shining grey</p>
+                    <p>800 games</p>
+                    <p>material : plastic</p>
+                    <p><i>17 item left in stock</i></p>
+                    <button onclick="qminus('3')">-</button><input type="text" value="1" id="itemqty3"><button onclick="qplus('3')">+</button>
+                    <br><button onclick="addtocart('3')">Add to
+                        cart</button>
+                </div>
+
+                <div class="col">
+                    <h4>Piano</h4>
+                    <p class="item-price">$300</p>
+                    <p>brand : ZHRUNS</p>
+                    <p>color : white</p>
+                    <p>connectivity technology- USB</p>
+                    <p><i>11 item left in stock</i></p>
+                    <button onclick="qminus('4')">-</button><input type="text" value="1" id="itemqty4"><button onclick="qplus('4')">+</button>
+                    <br><button onclick="addtocart('4')">Add to
+                        cart</button>
+                </div>
+
+                <div class="col">
+                    <h4>camera</h4>
+                    <p class="item-price">$500</p>
+                    <p>brand : Canon</p>
+                    <p> form factor - DSLR</p>
+                    <p>color:black</p>
+                    <p>resolution 24.1 mp</p>
+                    <p><i>10 item left in stock</i></p>
+                    <button onclick="qminus('2')">-</button><input type="text" value="1" id="itemqty2"><button onclick="qplus('5')">+</button>
+                    <br><button onclick="addtocart('2')">Add to
+                        cart</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+
+</html>

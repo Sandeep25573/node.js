@@ -1,0 +1,35 @@
+.items
+{
+    margin-top: 20px;
+} 
+.items .col
+{
+    border: 1px solid #ddd;
+    padding: 21px;
+    border-radius: 6px;
+    margin: 10px;
+}
+.items input
+{
+        width: 97px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.item-price
+{
+    color: #006c00;
+    font-weight: 600;
+}
+button
+{
+        border: 0;
+    background-color: black;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.inp
+{
+    text-align: center;
+}
